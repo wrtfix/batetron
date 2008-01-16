@@ -7,12 +7,14 @@ Bateria::Bateria()
 Bateria::~Bateria()
 {}
 
-list<cuerpo> Bateria::GetCuerpos(){
+vector<cuerpo> Bateria::GetCuerpos(){
         return Cuerpos;
 }
 void Bateria::AniadirCuerpo(cuerpo* nuevocuerpo){
     Cuerpos.push_back(nuevocuerpo);    
 }
-void PlayCuerpo(int Numero){
-    //ejecutar sonido Numero
+void Bateria::PlayCuerpo(int Numero){
+    Mix_Music *sonido;
+    sonido = Cuerpos[Numero]->GetSonido();
+    Mix_PlayMusic(sonido, -1);
 }

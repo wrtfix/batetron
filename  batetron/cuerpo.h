@@ -1,9 +1,9 @@
 #ifndef CUERPO_H
 #define CUERPO_H
+#include <stdio.h>
+#include "SDL/SDL.h"
+#include "SDL/SDL_mixer.h"
 
-/*
- * No description
- */
 class Cuerpo
 {   private:
         Mix_Music *Sonido;
@@ -16,8 +16,6 @@ class Cuerpo
 		void SetNombre(char *)
 		Mix_Music * GetSonido();
         char * GetNombre();
-		
-		
 };
 
 #endif // CUERPO_H

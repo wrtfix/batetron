@@ -11,7 +11,7 @@ Cuerpo::~Cuerpo()
 
 void Cuerpo::SetSonido(Mix_Music *Sonido){
     this->Sonido = Sonido;
-    Duracion = Sonido->//Obtener duracion
+    Duracion = 100;//Sonido->//Obtener duracion
 }
 
 void Cuerpo::SetNombre(char* Nombre){

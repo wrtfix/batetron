@@ -6,6 +6,8 @@
 #include "Cuerpo.h"
 #include "Bateria.h"
 
+//test modificacion x svn
+
 using namespace std;
 typedef enum ImgType_e
 {

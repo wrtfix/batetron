@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
 
     Cuerpo a(cuerpo1, "./sonidos/cym_Rock_b.ogg",100,1);
     Cuerpo b("Sonido 2", "./sonidos/hhp_Dry_a.ogg",100,2);
-    Cuerpo c("Sonido 3", "./sonidos/808_Tom_Low.ogg",100,3);
+    Cuerpo c("Sonido 3", "./sonidos/kick_Dry_b.ogg",100,3);
     Cuerpo d("Sonido 4", "./sonidos/808_Tom_Hi.ogg",100,4);
     Cuerpo e("Sonido 5", "./sonidos/808_Shaker.ogg",100,5);
     Cuerpo f("Sonido 6", "./sonidos/808_Cowbell.ogg",100,6);

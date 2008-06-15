@@ -6,9 +6,8 @@
 #include "Cuerpo.h"
 #include "Bateria.h"
 
-//test modificacion x svn probando jorgito
-
 using namespace std;
+
 typedef enum ImgType_e
 {
   IMG_WINGMAN=0,
@@ -93,20 +92,7 @@ int main(int argc, char *argv[])
     
     //Cargamos los sonidos de cada cuerpo/boton
 
-	char* cuerpo1= "sonido 1";
-	string cuerpo3 = "algun string cualquiera   ";
-/*    Cuerpo a("Sonido 1"
-    Cuerpo b("Sonido 2"
-    Cuerpo c("Sonido 3"
-    Cuerpo d("Sonido 4"
-    Cuerpo e("Sonido 5"
-    Cuerpo f("Sonido 6"
-    Cuerpo g("Sonido 7"
-    Cuerpo h("Sonido 8"
-    Cuerpo i("Sonido 9"
-		Sonido 10"*/
-
-    Cuerpo a(cuerpo1, "./sonidos/cym_Rock_b.ogg",100,1);
+    Cuerpo a("Sonido 1", "./sonidos/cym_Rock_b.ogg",100,1);
     Cuerpo b("Sonido 2", "./sonidos/hhp_Dry_a.ogg",100,2);
     Cuerpo c("Sonido 3", "./sonidos/kick_Dry_b.ogg",100,3);
     Cuerpo d("Sonido 4", "./sonidos/808_Tom_Hi.ogg",100,4);
